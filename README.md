@@ -14,7 +14,7 @@ csl: harvard-cranfield-university.csl
 abstract: |
 	This paper is intended to be a kind of primer and cookbook for
     using Python and Jupyter notebooks for GIS, geospatial and
-    phptogrammetry work.
+    photogrammetry work.
 ---
 
 ## Introduction
@@ -50,13 +50,13 @@ three big problems:
    for anything new, otherwise Python 2 will blight our lives forever.
 
 Windows is too much of a pain in the arse when using Python with lots
-of library depndencies. Path length problems, DLL depndencies, lack of
+of library depndencies. Path length problems, DLL dependencies, lack of
 workable file system links, sudden breakage .. need I go on? You need
 a Unix system for this kind of work.
 
 You can use Mac OSX if you like, but I wont help you fix your computer
 unless you are using the Homebrew package manager. It's just too
-difficult to shit on the OS if you are compiling stuff yourself and
+easy to shit on the OS if you are compiling stuff yourself and
 using sudo.
 
 Ubuntu Linux is perfectly good these days.
@@ -66,7 +66,7 @@ virtualisation on Windows. Vagrant is quite a useful tool, it makes it
 relatively easy to purge an environment and start again in a way
 that would be too painful on physical hardware.
 
-I've also used cloud based virtual machines. e.g. Microsoft Azure
+Cloud based virtual machines can also work well. e.g. Microsoft Azure
 allows you to create linux VMs. You can install all your stuff and
 start and stop them at will. You only pay for the time the VM is
 running.
@@ -79,7 +79,6 @@ latest VirtualBox version >= Version 5.0.20 r106931.
 Change into your working directory, e.g.
 
     cd c:\dropbox\myproject
-
 
 Then setup a Vagrant Virtual Machine
 
@@ -131,9 +130,9 @@ Edit you ~/.bashrc file and append a line like the following:
 
     GDAL_DATA=/home/vagrant/anaconda3/share/gdal
 
-Log out (CTRL-d) and log back in for the change to take effect.
+Log out and log back in for the change to take effect.
 
-Unfortunately, the Folium library isnt part of Anaconda yet, so:
+Unfortunately, the Folium library isn't part of Anaconda yet, so:
 
     pip install folium
 
