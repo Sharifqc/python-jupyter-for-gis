@@ -1,7 +1,7 @@
 ---
 title: |
 	Python Jupyter for GIS
-Time-stamp: <2016-05-17 14:24:30 robbl>
+Time-stamp: <2016-05-17 15:00:32 robbl>
 author: Rob Blackwell
 institute: Cranfield University, Bedfordshire, UK
 date: May 7, 2016
@@ -152,7 +152,7 @@ http://localhost:8888 to get started.
 
 ## Cookbook
 
-### Simple static map
+### Simple static UK map
 
 A simple map to get started.
 
@@ -160,6 +160,11 @@ A simple map to get started.
 
 [simple.ipynb](simple.ipynb)
 
+### Antarctica
+
+![A simple static map of Antarctica](figures/2.png)
+
+[antarctica.ipynb](antarctica.ipynb)
 
 ## Links
 
