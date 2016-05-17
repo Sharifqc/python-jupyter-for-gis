@@ -1,7 +1,7 @@
 ---
 title: |
 	Python Jupyter for GIS
-Time-stamp: <2016-05-17 15:00:32 robbl>
+Time-stamp: <2016-05-17 15:45:35 robbl>
 author: Rob Blackwell
 institute: Cranfield University, Bedfordshire, UK
 date: May 7, 2016
@@ -133,6 +133,10 @@ Edit you ~/.bashrc file and append a line like the following:
 
 Log out (CTRL-d) and log back in for the change to take effect.
 
+Unfortunately, the Folium library isnt part of Anaconda yet, so:
+
+    pip install folium
+
 I also like to use pandoc for documenting my results:
 
     sudo apt-get install pandoc texlive-latex-recommended
@@ -165,6 +169,12 @@ A simple map to get started.
 ![A simple static map of Antarctica](figures/2.png)
 
 [antarctica.ipynb](antarctica.ipynb)
+
+### The London Eye
+
+[The London Eye](london-eye.html), an interactive map using Folium.
+
+[london-eye.ipynb](london-eye.ipynb)
 
 ## Links
 
