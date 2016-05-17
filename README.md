@@ -141,7 +141,7 @@ I also like to use pandoc for documenting my results:
 
 Change into your working directory, e.g.:
 
-    c /vagrant
+    cd /vagrant
 
 Start jupyter:
 
@@ -156,7 +156,7 @@ http://localhost:8888 to get started.
 
 A simple map to get started.
 
-![A simple static map](figures1.png)
+![A simple static map](figures/1.png)
 
 [simple.ipynb](simple.ipynb)
 
