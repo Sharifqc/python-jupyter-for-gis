@@ -1,7 +1,7 @@
 ---
 title: |
 	Python Jupyter for GIS
-Time-stamp: <2016-05-17 15:45:35 robbl>
+Time-stamp: <2016-05-17 20:55:04 robbl>
 author: Rob Blackwell
 institute: Cranfield University, Bedfordshire, UK
 date: May 7, 2016
@@ -140,6 +140,10 @@ I also like to use pandoc for documenting my results:
 
     sudo apt-get install pandoc texlive-latex-recommended
 
+f you use curl, add this to ~/.bashrc
+
+    export CURL_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
+
 ## Starting Jupyter
 
 Change into your working directory, e.g.:
@@ -152,6 +156,10 @@ Start jupyter:
 
 Now you should be able to bring up a web browser and point it to
 http://localhost:8888 to get started.
+
+## Image Processing
+
+    conda install scipy
 
 ## Cookbook
 
