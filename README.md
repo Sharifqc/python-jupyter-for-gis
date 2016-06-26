@@ -108,7 +108,7 @@ The rest of the installation is as per the Linux instructions below.
 
 First install the Anaconda distribution - I use the Python3 version throughout:
 
-    wget http://repo.continuum.io/archive/Anaconda3-4.0.0-Linux-x86_64.sh
+    curl -O http://repo.continuum.io/archive/Anaconda3-4.0.0-Linux-x86_64.sh
     bash Anaconda3-4.0.0-Linux-x86_64.sh
 
 Follow the instructions in the installer program. Say yes to
