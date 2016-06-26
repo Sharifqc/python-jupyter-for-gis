@@ -128,7 +128,7 @@ problem between gdal and basemap, a work round is as follows:
 
 Edit you ~/.bashrc file and append a line like the following:
 
-    GDAL_DATA=/home/vagrant/anaconda3/share/gdal
+    export GDAL_DATA=/home/vagrant/anaconda3/share/gdal
 
 Log out and log back in for the change to take effect.
 
